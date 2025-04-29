@@ -126,7 +126,7 @@ pipeline {
 --- JDK & Maven Installation ---
 
 sudo apt-get update -y
-sudo apt install openjdk-11-jre -y
+sudo apt install openjdk-17-jre -y
 sudo apt-get install maven -y
 
 --- Docker Installation ---
@@ -156,7 +156,7 @@ sudo systemctl restart docker
 
 --- INSTALL JENKINS ---
 
-sudo apt install openjdk-11-jre
+sudo apt install openjdk-17-jre
 
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
